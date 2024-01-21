@@ -3,7 +3,7 @@
         <h3>{{ task.title }}</h3>
         <div class="icons">
             <Icon @click="taskStore.toggleFav(task.id)" class="i" name="uil:heart" color="black" />
-            <Icon :class="{ active: task.isFav }" click="taskStore.deleteTask(task.id)" class="i" name="uil:trash-alt"
+            <Icon :class="{ active: task.isFav }" @click="taskStore.deleteTask(task.id)" class="i" name="uil:trash-alt"
                 color="black" />
         </div>
     </div>
