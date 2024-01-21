@@ -5,8 +5,13 @@
             <h1>Pinia Tasks</h1>
         </header>
 
-        <!-- filter -->
+        <!-- new Task form -->
 
+        <div class="new-class-form">
+            <TaskForm />
+        </div>
+
+        <!-- filter -->
         <nav class="filter">
             <button @click="filter = 'all'">All tasks</button>
             <button @click="filter = 'favs'">Fav tasks</button>
