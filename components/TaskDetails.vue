@@ -8,9 +8,6 @@
     </div>
 </template>
 
-
-
-
 <script>
 
 export default {
@@ -18,7 +15,3 @@ export default {
 }
 
 </script>
-
-<style>
-@import url("~/assets/main.css");
-</style>

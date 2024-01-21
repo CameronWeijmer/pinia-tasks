@@ -29,21 +29,7 @@
     </div>
 </template>
 
-<script>
-
-export default {
-
-    setup() {
-        const taskStore = useTaskStore()
-
-        const filter = ref("all")
-
-        return { taskStore, filter }
-    }
-
-};
+<script setup>
+const taskStore = useTaskStore()
+const filter = ref("all")
 </script>
-
-<style>
-@import url("~/assets/main.css");
-</style>
